@@ -1,6 +1,6 @@
 # CEEP
 
-Projeto para cadastro de Notas Fiscais feito em React.
+Projeto para cadastro de Notas feito em React.
 
 Comandos:
 
