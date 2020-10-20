@@ -1,12 +1,15 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet"> ');
+
+
 .card-nota {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    background-color: var(--fundo-detalhes);
-    border-radius: 4px;
+    background-color: var(--fundo);
+    border: solid 2px var(--primaria);
+    border-radius: 5px;
     flex-wrap: wrap;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
     padding: 16px;
   }
   .card-nota_cabecalho {
@@ -19,9 +22,11 @@
   .card-nota_texto {
     margin-top: 8px;
     font-size: 1em;
+    font-family: 'Roboto', sans-serif;
   }
   
   .card-nota_titulo {
     font-size: 1.2em;
     margin-right: 12px;
+    font-family: 'Roboto', sans-serif;
   }

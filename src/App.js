@@ -3,6 +3,7 @@ import ListaDeNotas from "./components/ListaDeNotas";
 import FormularioCadastro from "./components/FormularioCadastro";
 import "./assets/App.css";
 import './assets/index.css';
+
 class App extends Component {
 
   constructor(){
@@ -16,6 +17,7 @@ class App extends Component {
   criarNota(titulo, texto){
     const novaNota = {titulo, texto};
     const novoArrayNotas = [...this.state.notas,novaNota]
+    console.log(novoArrayNotas)
     const novoEstado = {
       notas:novoArrayNotas
     }
