@@ -22,7 +22,14 @@ class FormularioCadastro extends Component {
     evento.preventDefault();
     evento.stopPropagation();
     this.props.criarNota(this.titulo, this.texto);
-    
+    this._limpaInputs();
+  }
+
+  _limpaInputs() {
+    document.querySelector('form input').value = '';
+    document.querySelector('form textarea').value = '';
+    this.titulo = '';
+    this.texto = '';
   }
 
   render() {
