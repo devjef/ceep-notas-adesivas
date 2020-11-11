@@ -15,10 +15,15 @@ class CardNota extends Component {
     return (
       <section className="card-nota">
         <header className="card-nota_cabecalho">
+          
           <h3 className="card-nota_titulo">{this.props.titulo}</h3>
           <DeleteSVG onClick={this.apagar.bind(this)} />
+         
         </header>
         <p className="card-nota_texto">{this.props.texto}</p>
+        <div className="card-nota_categoria">
+          <h4>{this.props.categoria}</h4>
+        </div>
       </section>
     );
   }

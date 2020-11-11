@@ -8,7 +8,9 @@ class ListaDeCategorias extends Component {
 
     const valorCategoria = e.target.value;
 
-    this.props.adicionaCategoria(valorCategoria)
+    this.props.adicionaCategoria(valorCategoria);
+
+    e.target.value = '';
   }
 
   render() {
