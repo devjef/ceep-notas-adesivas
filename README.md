@@ -1,7 +1,3 @@
-# CEEP
+# Ceep Note
 
-Projeto para cadastro de Notas feito em React.
-
-Comandos:
-
-``npm start``
+Aplicação para cadastro de notas adesivas digitais.
